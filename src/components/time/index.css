@@ -1,0 +1,134 @@
+.time-picker-rc {
+    position: relative;
+    width: 600px;
+}
+
+.time-picker-rc>* {
+    user-select: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.time-picker-rc .quick-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #3776EF;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.time-picker-rc .quick-btn li {
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-right: 1px solid #3776EF;
+    color: #3776EF;
+    transition: all ease .2s;
+}
+
+.time-picker-rc .quick-btn li:hover {
+    background: #3776EF;
+    color: #fff;
+}
+
+.time-picker-rc .quick-btn li:last-child {
+    border: none;
+}
+
+.time-picker-rc .quick-btn li.cur {
+    background: #3776EF;
+    color: #fff;
+}
+
+.time-picker-rc .time-content {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    border-bottom: none;
+    background: rgba(238, 238, 238, 0.3);
+    width: 600px;
+}
+
+.time-picker-rc .time-content .day {
+    width: 60px;
+}
+
+.time-picker-rc .time-content .day div {
+    border-right: 1px solid #eee;
+    flex: 1;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.time-picker-rc .time-content .time {
+    width: 540px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.time-picker-rc .time-content .time .am-pm,
+.time-picker-rc .time-content .time .hour,
+.time-picker-rc .time-content .time .half {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time-picker-rc .time-content .time .am-pm.am-pm,
+.time-picker-rc .time-content .time .hour.am-pm,
+.time-picker-rc .time-content .time .half.am-pm {
+    font-weight: bold;
+}
+
+.time-picker-rc .time-content .time .am-pm div,
+.time-picker-rc .time-content .time .hour div,
+.time-picker-rc .time-content .time .half div {
+    border-right: 1px solid #eee;
+    flex: 1;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    transition: all ease .2s;
+}
+
+.time-picker-rc .time-content .time .am-pm div:last-child,
+.time-picker-rc .time-content .time .hour div:last-child,
+.time-picker-rc .time-content .time .half div:last-child {
+    border-right: none;
+}
+
+.time-picker-rc .time-content .time .am-pm div.cur,
+.time-picker-rc .time-content .time .hour div.cur,
+.time-picker-rc .time-content .time .half div.cur {
+    background: rgba(55, 118, 239, 0.6);
+}
+
+.time-picker-rc .clear {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.time-picker-rc .clear a:hover {
+    color: #3776EF;
+}
+
+.time-picker-rc .clear a {
+    cursor: pointer;
+}
+
+.time-picker-rc .box {
+    position: fixed;
+    background: rgba(55, 118, 239, 0.2);
+    border: 1px dashed rgba(55, 118, 239, 0.5);
+    z-index: 999;
+}
