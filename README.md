@@ -7,6 +7,9 @@
 快速选择按钮迅速选中时间段
 自由拖拽选择或取消某一些时间段
 一键清除选择
+[github](https://github.com/sherryhhx/time-picker-rc)
+![image](https://github.com/sherryhhx/time-picker-rc/blob/master/src/img/pic.jpg)
+
 ```
 
 ## Usage
