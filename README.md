@@ -2,6 +2,7 @@
 
 ## 描述
 
+[github](https://github.com/sherryhhx/time-picker-rc) https://github.com/sherryhhx/time-picker-rc
 ```bash
 一个时间投放选择插件
 快速选择按钮迅速选中时间段
@@ -9,8 +10,6 @@
 一键清除选择
 
 ```
-
-[github](https://github.com/sherryhhx/time-picker-rc)
 ![image](https://github.com/sherryhhx/time-picker-rc/blob/master/src/img/pic.jpg)
 
 ## Usage
