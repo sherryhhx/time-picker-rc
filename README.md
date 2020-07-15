@@ -20,7 +20,7 @@ import  TimePicker from 'time-picker-rc'
     //data 为 json 对象
     // 其中外层  代表周一至周日
     // 内层 0-23 代表0点0分到23点59分 24个小时段 选中的时间段会在返回的 json 中
- <TimPicker
+ <TimePicker
     data={data}
     onTimeChange={(data) => {
         console.log(data)
